@@ -1,0 +1,10 @@
+name: Reusable Workflow user
+
+on:
+  workflow_dispatch:
+
+jobs:
+  docker-images:
+    uses: tdenimal/sfeir-school-github-actions/.github/workflows/ex4.yml@main 
+    with:
+      node-version: '14'
