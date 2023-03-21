@@ -5,6 +5,6 @@ on:
 
 jobs:
   docker-images:
-    uses: tdenimal/sfeir-school-github-actions/.github/workflows/ex4.yml@main 
+    uses: tdenimal/sfeir-school-github-actions/.github/workflows/ex4.yaml@main 
     with:
       node-version: '14'
